@@ -325,6 +325,12 @@
 
     .project-visual-bg.sams img { object-position: center center; }
 
+    .project-visual-bg.rms {
+      background: radial-gradient(ellipse at 20% 20%, rgba(100, 210, 255, 0.18) 0%, transparent 50%),
+                  radial-gradient(ellipse at 80% 80%, rgba(48, 209, 88, 0.12) 0%, transparent 50%),
+                  linear-gradient(145deg, #0a1a28 0%, #0d2840 45%, #0f3020 100%);
+    }
+
     .project-visual-overlay {
       position: absolute;
       inset: 0;
@@ -864,6 +870,54 @@
         <p>스타트업부터 대기업까지, 실제 성과로 증명한 프로젝트</p>
       </div>
 
+      <!-- RMS Platform -->
+      <div class="project-showcase fade-in">
+        <div class="project-visual">
+          <div class="project-visual-bg rms">
+            <div class="project-visual-overlay">
+              <pre class="arch-diagram left">
+  Energy │ VPP │ e-data
+  Carbon MRV │ Logistics
+       │ /map?bbox&amp;tier
+  DT Federation Gateway
+       │
+  Mapbox + PostGIS</pre>
+              <div class="project-visual-content">
+                <div class="project-visual-title">RMS Platform</div>
+                <div class="project-visual-subtitle">Enterprise Energy & Manufacturing AX</div>
+              </div>
+              <pre class="arch-diagram right">
+  Spring Boot + Next.js
+  PostGIS Map Server
+  Tier Federation
+  Medallion Data Lake
+  K8s GPU Cluster
+  OIDC SSO</pre>
+            </div>
+          </div>
+        </div>
+        <div class="project-meta">
+          <div class="project-info">
+            <h3>에너지 그룹 AX 플랫폼</h3>
+            <p>태양광 운영, RE100, VPP, 온실가스 MRV, e-data를 아우르는 에너지 통합 플랫폼과, 각 도메인 서비스를 지도 위 "한 세계"로 연합하는 디지털트윈 플랫폼(tier federation)을 설계/구축. 메달리온 데이터레이크와 IDC Kubernetes GPU 클러스터로 AI 학습/서빙 인프라까지 직접 구축하여, 그룹의 AI 전환(AX)을 기술 기반부터 실현.</p>
+          </div>
+          <div class="project-results">
+            <div class="project-result">
+              <div class="project-result-value" style="color: var(--cyan);">6</div>
+              <div class="project-result-label">Domains</div>
+            </div>
+            <div class="project-result">
+              <div class="project-result-value" style="color: var(--cyan);">3</div>
+              <div class="project-result-label">Platforms</div>
+            </div>
+            <div class="project-result">
+              <div class="project-result-value" style="color: var(--cyan);">1</div>
+              <div class="project-result-label">Architect</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- SAMS -->
       <div class="project-showcase fade-in">
         <div class="project-visual">
@@ -1170,6 +1224,13 @@
         <h2>Career</h2>
       </div>
       <div class="timeline fade-in">
+        <div class="timeline-item">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-year">2026 ~ Present</div>
+          <div class="timeline-role">Platform Architect & AI Infrastructure Lead</div>
+          <div class="timeline-company">RMS Group</div>
+          <div class="timeline-desc">에너지/제조 그룹 AX 플랫폼 총괄. 에너지 통합 플랫폼(RE100/VPP/온실가스 MRV), 디지털트윈 맵 연합 플랫폼, 메달리온 데이터레이크, IDC Kubernetes GPU 클러스터 및 AI 학습 인프라 구축.</div>
+        </div>
         <div class="timeline-item">
           <div class="timeline-dot active"></div>
           <div class="timeline-year">2026 ~ Present</div>
